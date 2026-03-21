@@ -84,3 +84,42 @@
 .link:hover {
     filter: drop-shadow(0 5px 6px rgba(0, 0, 0, 0.3));
 }
+
+.topbar {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ===== Responsive Styles ===== */
+/* Mobile Device */
+@media screen and (max-width: 576px) {
+    .navbar {
+        display: none;
+    }
+
+    .topbar {
+        display: flex; 
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .logo {
+        width: 45px;
+    }
+
+    .menu-icon {
+        font-size: 24px;
+        cursor: pointer;
+    }
+}

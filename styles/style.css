@@ -7,3 +7,80 @@
 .raleway {
   font-family: "Raleway", sans-serif;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+}
+
+/* Shared Styles */
+.display-flex {
+    display: flex;
+}
+
+
+/* Header Styles */
+.header {
+    max-width: 1360px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Navbar styles */
+.navbar, .nav-left, .nav-items {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    gap: 10px;
+    font-size: 32px;
+    font-weight: 700;
+    color: blueviolet;
+}
+
+.nav-items {
+    gap: 30px;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.link1 {
+    color: rgba(254, 163, 1, 1);
+}
+.link2 {
+    color: rgba(1, 172, 253, 1);
+}
+.link3 {
+    color: rgba(5, 212, 223, 1);
+}
+.link4 {
+    color: rgba(93, 88, 239, 1);
+}
+
+.btn {
+    background: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 12px;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(218, 139, 4);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.link:hover {
+    filter: drop-shadow(0 5px 6px rgba(0, 0, 0, 0.3));
+}

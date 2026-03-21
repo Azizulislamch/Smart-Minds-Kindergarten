@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 .quicksand {
-  font-family: "Quicksand", sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 .raleway {
-  font-family: "Raleway", sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 * {
@@ -29,16 +29,24 @@
 }
 
 /* Navbar styles */
-.navbar, .nav-left, .nav-items {
+.navbar,
+.nav-left,
+.nav-items {
     justify-content: space-between;
     align-items: center;
 }
 
 .nav-left {
-    gap: 10px;
+    max-width: 300px;
+    gap: 20px;
+}
+
+.nav-title {
     font-size: 32px;
     font-weight: 700;
-    color: blueviolet;
+    background: linear-gradient(90deg, #7b2ff7, #f107a3);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .nav-items {
@@ -55,12 +63,15 @@
 .link1 {
     color: rgba(254, 163, 1, 1);
 }
+
 .link2 {
     color: rgba(1, 172, 253, 1);
 }
+
 .link3 {
     color: rgba(5, 212, 223, 1);
 }
+
 .link4 {
     color: rgba(93, 88, 239, 1);
 }
@@ -107,7 +118,7 @@
     }
 
     .topbar {
-        display: flex; 
+        display: flex;
         justify-content: space-between;
         align-items: center;
         width: 100%;
@@ -115,11 +126,25 @@
     }
 
     .logo {
-        width: 45px;
+        width: 50px;
     }
 
     .menu-icon {
-        font-size: 24px;
+        font-size: 25px;
         cursor: pointer;
+    }
+}
+
+
+
+
+/* Tablet Responsive */
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .logo {
+        max-width: 50px;
+    }
+
+    .nav-title {
+        font-size: 28px;
     }
 }

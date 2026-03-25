@@ -419,7 +419,6 @@ main {
     padding: 125px 100px;
     background: #01ACFD;
     justify-content: space-between;
-    align-items: center;
 }
 
 .footer-left {
@@ -447,9 +446,45 @@ main {
     font-size: 20px;
     font-weight: 400;
     color: #FFFFFF;
+    line-height: 26px;
 }
 
+.footer-about h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
 
+.footer-about li {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    list-style: none;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.footer-about li:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+    text-shadow: 0 0 8px rgba(243, 240, 240, 0.6);
+}
+
+.footer-touch h2 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
+.icons {
+    gap: 10px;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
 
 /* ===== Responsive Styles ===== */
 /* Mobile Device */

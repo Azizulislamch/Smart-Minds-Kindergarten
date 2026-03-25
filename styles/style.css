@@ -557,17 +557,15 @@ main {
     }
 
     .card-title {
-        font-size: 16.5px;
+        font-size: 18px;
         margin-bottom: 22px;
     }
 
     .card-desc {
-        font-size: 10px;
         margin-bottom: 22px;
     }
 
     .card-btn {
-        font-size: 11px;
         margin-bottom: 36px;
     }
 
@@ -624,7 +622,17 @@ main {
     }
 
     .footer-left p {
+        font-size: 18px;
         margin-bottom: 40px;
+    }
+
+    .logo2 img {
+        width: 65px;
+        height: 75px;
+    }
+
+    .logo2 h2 {
+        font-size: 32px;
     }
 
     .footer-touch {

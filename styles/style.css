@@ -353,11 +353,11 @@
         flex-direction: column-reverse;
         gap: 20px;
         text-align: center;
+        margin-bottom: 45px;
     }
 
     .hero-title {
         font-size: 32px;
-        
         line-height: 45px;
         margin-bottom: 18px;
     }
@@ -369,7 +369,7 @@
 
     .btn-common {
         font-size: 16px;
-        padding: 6px 24px;
+        padding: 8px 24px;
     }
 
     .curriculum-section {
@@ -378,28 +378,34 @@
     }
 
     .section-title {
+        margin-bottom: 30px;
         font-size: 26px;
     }
 
     .card-container {
         flex-direction: column;
         gap: 10px;
+        margin-bottom: 0px;
     }
 
     .card-img {
         max-width: 95px;
+        margin-bottom: 22px;
     }
 
     .card-title {
         font-size: 16.5px;
+        margin-bottom: 22px;
     }
 
     .card-desc {
-        font-size: 15px;
+        font-size: 10px;
+        margin-bottom: 22px;
     }
 
     .card-btn {
-        font-size: 10.5px;
+        font-size: 11px;
+        margin-bottom: 36px;
     }
 
     .arrow {

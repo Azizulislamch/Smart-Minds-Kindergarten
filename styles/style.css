@@ -22,7 +22,8 @@
 
 
 /* Header, Main Styles */
-.header, main {
+.header,
+main {
     max-width: 1360px;
     margin: 20px auto;
     padding: 0 20px;
@@ -149,6 +150,27 @@
 }
 
 
+/* Scrolling Text styles */
+.scroll-text {
+    color: #8700FF;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: scroll-left 30s linear 1s infinite;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+
 /* Standard Curriculum Section */
 .curriculum-section {
     padding: 60px 0;
@@ -178,9 +200,11 @@
 .card1 {
     background: linear-gradient(180deg, #DEF5FF 0%, rgba(255, 255, 255, 0) 40%);
 }
+
 .card2 {
     background: linear-gradient(180deg, #FFF4DC 0%, rgba(255, 255, 255, 0) 40%);
 }
+
 .card3 {
     background: linear-gradient(180deg, #EEE1FF 0%, rgba(255, 255, 255, 0) 40%);
 }
@@ -220,9 +244,11 @@
 .btn1 {
     color: #64C8FF;
 }
+
 .btn2 {
     color: #F0AA00;
 }
+
 .btn3 {
     color: #8700FF;
 }
@@ -248,16 +274,16 @@
 /* Our Stories Section */
 .stories-section {
     padding: 60px 0;
+    background: linear-gradient(to bottom,
+            rgba(255, 255, 255, 0.3) 0%,
+            rgba(254, 163, 1, 0.2) 100%), url("../assets/images/bg.png");
 }
 
 .section-title1 {
     text-align: center;
 }
 
-.story-container {
-    padding: 20px;
-    background-color: #FEFAF4;
-}
+
 
 .story {
     max-width: 540px;
@@ -373,8 +399,8 @@
     }
 
     .curriculum-section {
-       padding: 0;
-       margin: 0;
+        padding: 0;
+        margin: 0;
     }
 
     .section-title {
@@ -429,7 +455,7 @@
     .hero-left {
         max-width: 500px;
     }
-    
+
     .hero-title {
         font-size: 45px;
     }

@@ -45,6 +45,10 @@ The website is optimized for:
 - 💻 Desktop screens  
 
 ---
+## Screenshot
+<img width="1509" height="831" alt="image" src="https://github.com/user-attachments/assets/21277dde-09b5-43db-aaf4-b2e875f3c335" />
+
+---
 
 ## 🚀 Getting Started
 
